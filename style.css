@@ -15,12 +15,6 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-@media print {
-  @page {
-    size: landscape;
-  }
-}
-
 @keyframes fadeInAnimation {
     from {
         opacity: 0;
