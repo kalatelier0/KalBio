@@ -1,0 +1,60 @@
+.main-header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+.times-new-roman-font {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.arial-font {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.courier-font {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0;
+        padding-left: 30px;
+    }
+    to {
+        opacity: 1;
+        padding-left: 0px;
+    }
+}
+
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    animation-name: fadeInAnimation;
+    animation-duration: 2s;
+}
+
+.content-box {
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+}
+
+.logo-image {
+    margin-left: 12px;
+    margin-bottom: 8px;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    border-radius: 20%;
+}
+
+.hypertext-ref {
+    color: black;
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+}
